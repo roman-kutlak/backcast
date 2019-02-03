@@ -14,4 +14,4 @@ class TestMain(unittest.TestCase):
         app.aggregator = mock.MagicMock()
         app.realiser = mock.MagicMock()
         app.communicate(mock.MagicMock())
-        app.lexicaliser.assert_called()
+        assert app.lexicaliser.called
