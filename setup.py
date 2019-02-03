@@ -29,6 +29,7 @@ setup(
     extras_require={'dev': [
         'coverage',
         'nose',
+        'pycodestyle',
         'rednose',
     ]},
     include_package_data=True,
