@@ -1,4 +1,4 @@
-nltk
+nlglib
 nose
 rednose
 coverage
